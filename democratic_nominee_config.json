@@ -1,0 +1,1 @@
+{"max_length": 5, "rnn_bidirectional": false, "single_text": true, "name": "democratic_nominee", "rnn_size": 128, "is_csv": true, "word_level": true, "dim_embeddings": 100, "max_words": 10000, "rnn_layers": 5}
