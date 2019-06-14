@@ -1,1 +1,0 @@
-{"max_length": 10, "max_words": 10000, "rnn_layers": 5, "word_level": true, "rnn_size": 128, "name": "Obama1", "is_csv": true, "rnn_bidirectional": false, "dim_embeddings": 100, "single_text": true}

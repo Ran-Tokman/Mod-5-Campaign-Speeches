@@ -1,0 +1,1 @@
+{"name": "dem_nominee3", "word_level": false, "is_csv": true, "max_length": 40, "single_text": true, "dim_embeddings": 100, "rnn_size": 128, "max_words": 10000, "rnn_layers": 4, "rnn_bidirectional": false}
