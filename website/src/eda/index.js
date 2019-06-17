@@ -42,6 +42,7 @@ import trump1 from '../images/candidates/trump1.png';
 import trump2 from '../images/candidates/trump2.png';
 import trump3 from '../images/candidates/trump3.png';
 
+
 class Eda extends React.Component {
 
     bernie = [ bernie0, bernie1, bernie2, bernie3 ];
@@ -58,6 +59,7 @@ class Eda extends React.Component {
         candidate: null
     }
 
+    
     candidateImages = (candidate) => {
         if (candidate === 'bernie') { 
             return this.bernie;

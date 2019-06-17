@@ -17,14 +17,15 @@ class Gen extends React.Component {
                     Speech Generator Using Textgenrnn
                 </div>
                 <div className='intro-title'>
-                    textgenrnn is a Python 3 module on top of Keras/TensorFlow for creating char-rnns
+                    <strong>textgenrnn</strong> is a Python 3 module on top of Keras/TensorFlow for creating RNNs (recurrent neural network).
                 </div>
                 <img src={textGenModel} />
                 <div className='genned-speech'>
-                    For the my model, textgenrnn takes in an input of up to 40 characters, converts each character to a 100-D character embedding vector, and feeds those into a 128-cell long-short-term-memory (LSTM) recurrent layer. Those outputs are then fed into another 128-cell LSTM. All four layers are then fed into an Attention layer to weight the most important temporal features and average them together (and since the embeddings + 1st LSTM are skip-connected into the attention layer, the model updates can backpropagate to them more easily and prevent vanishing gradients).
+                    For the my model, textgenrnn takes in an input of up to 40 characters, converts each character to a 100-D character embedding vector, and feeds those into a <strong>128-cell long-short-term-memory (LSTM) recurrent layer</strong>. Those outputs are then fed into another 128-cell LSTM. All four layers are then fed into an Attention layer to weight the most important temporal features and average them together (and since the embeddings + 1st LSTM are skip-connected into the attention layer, the model updates can backpropagate to them more easily and prevent vanishing gradients).
+
                 </div>
                 <div className='genned-speech'>
-                    The model used speeches from the democratic candidates who won the nomination, over 600 speeches.It trains on character sequences to try and have an understanding of  the language used. It starts off by learning the most common  words used, then the most common phrases and mixing them all together to create new generated sequences. 
+                    The model used speeches from the democratic candidates who won the nomination, <strong>over 600 speeches</strong>. It trains on character sequences to try and have an understanding of  the language used. It starts off by learning the most common  words used, then the most common phrases and mixing them all together to <strong>create new generated sequences</strong>. 
                 </div>
                 <div className='modeling-title'>
                     Generating The Text

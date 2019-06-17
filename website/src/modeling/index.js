@@ -141,20 +141,25 @@ class Modeling extends React.Component {
                 <div className='modeling-title'>
                     Baseline Modeling
                 </div>
-                <div>First I created a baseline model (using logistic regression) through a pipeline.</div>
+                <div>First I created a baseline model (using <strong>logistic regression</strong>) through a pipeline.</div>
                 <img className='modeling-img' src={baselineModel} />
                 <div className='modeling-title'>
-                    Confusion Matrix for Baseline Model
+                    Accuracy and Confusion Matrix for Baseline Model
                 </div>
-                <img className='modeling-img' src={baselineConfusion1} />
                 <img className='modeling-img' src={baselineConfusion2} />
+                <img className='modeling-img' src={baselineConfusion1} />
+                
 
 
                 <div className='modeling-title'>
                     Final Model- Linear SVC()
                 </div>
-                <img className='modeling-img' src={finalConfusion1} />
+                <div><strong>LinearSVC</strong> is one of the algorithm which performs quite well on a range of NLP based text classification tasks. The objective of a Linear SVC (Support Vector Classifier) is to fit to the data you provide, returning a "best fit" hyperplane that divides, or categorizes, your data. </div>
+                <div className='modeling-title'>
+                    Accuracy and Confusion Matrix for Final Model
+                </div>
                 <img className='modeling-img' src={finalConfusion2} />
+                <img className='modeling-img' src={finalConfusion1} />
 
                 <div className='modeling-title'>
                     Using the Model to Predict the Probability of 2020 Candidates Will Win the Nomination Based on Their Announcement Speech
