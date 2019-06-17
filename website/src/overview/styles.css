@@ -1,0 +1,19 @@
+.overview {
+    margin-right: auto;
+    width: 700px;
+    margin-left: auto;
+    margin-top: 15px;
+    font-family: "Georgia";
+}
+
+.overview-source {
+    margin-top: 10px;
+    font-family: "Georgia";
+}
+
+.overview-charts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}

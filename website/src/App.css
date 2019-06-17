@@ -1,0 +1,82 @@
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Georgia";
+}
+
+.title {
+  width: 100%;
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Georgia";
+}
+
+.inner-title-container { 
+  display: flex; 
+  flex-direction: column; 
+  font-family: "Georgia";
+}
+
+.subtitle {
+  display: block;
+  color: #59636e;
+  font-size: 16px;
+  margin-left: 10px;
+  align-self: flex-end;
+  font-family: "Georgia";
+}
+
+.project-image {
+  height: 250px;
+  margin-top: 20px;
+}
+
+.tab-nav {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-family: "Georgia";
+}
+
+.inner-nav {
+  width: 665px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-family: "Georgia";
+}
+
+.nav-option {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 15px 5px 15px;
+  font-family: "Georgia";
+}
+
+.nav-option:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.nav-option {
+  cursor: pointer;
+  color: #607D8B;
+}
+
+.nav-option.selected {
+  color: #263238;
+}
+
+.nav-option:hover {
+  color: #B0BEC5;
+}

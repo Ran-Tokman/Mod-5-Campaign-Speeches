@@ -1,0 +1,65 @@
+.gen {
+    width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-bottom: 100px;
+}
+
+.modeling-title { 
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    color: #424242;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #212121;
+    margin-bottom: 20px;
+    font-family: "Georgia";
+}
+
+.genned-speech {
+    margin-top: 20px;
+    font-family: "Georgia";
+}
+
+.intro-title {
+    margin-bottom: 25px;
+    font-family: "Georgia";
+}
+
+.gen-sub-title {
+    margin-top: 20px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+    border-bottom: 1px solid #212121;
+    width: fit-content;
+    font-family: "Georgia";
+}
+
+.typewriter h1 {
+    font-family: "Courier";
+    display: flex;
+    font-size:20px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: wrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0em; /* Adjust as needed */
+    animation: 
+      typing 15s steps(70, end),
+      blink-caret .75s step-end infinite;
+    
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  

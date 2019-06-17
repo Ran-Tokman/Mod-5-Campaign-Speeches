@@ -1,0 +1,61 @@
+.modeling {
+    margin-right: auto;
+    width: 700px;
+    margin-left: auto;
+    margin-top: 15px;
+    font-family: "Georgia";
+}
+
+.modeling-title { 
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    color: #424242;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #212121;
+    margin-bottom: 20px;
+    font-family: "Georgia";
+}
+
+.modeling-img {
+    max-width: 500px;
+}
+
+.modeling-img:first-of-type {
+    max-width: 700px;
+}
+
+.modeling-title:not(:first-of-type) {
+    margin-top: 25px;
+    font-family: "Georgia";
+}
+
+.speech {
+    width: 400px;
+    font-family: "Georgia";
+}
+
+.speech-container {
+    display: flex;
+    flex-direction: row;
+    font-family: "Georgia";
+}
+
+.speech-percent {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Georgia";
+}
+.percent-container {
+    width: 400px;   
+    margin-left: 100px;
+    font-family: "Georgia";
+}
+
+.candidates-container-modeling {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-left: -75px;
+    font-family: "Georgia";
+}
