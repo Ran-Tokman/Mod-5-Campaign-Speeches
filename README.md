@@ -77,7 +77,7 @@ First I created a baseline model (using **logistic regression**) through a pipel
 
 The baseline model has a good accuracy score for predicting "nominated" candidate speeches, but is unnable to detect any speeches that did **not** lead to nomination. This is probably because of a class imbalance that skews towards "nominated" candidate speeches.
 
-<img src="./website/src/images/baselineconfusion2.png">
+<img src="./website/src/images/baselineconfusion2.png" width="700" height="210">
 
 <img src="./website/src/images/baselineconfusion1.png">
 
@@ -99,7 +99,7 @@ The final model has an **accuracy of about 90%**; a rate of 86% for predicting n
 
 The confusion matrix shows a pretty decent **minimization of Type I and Type II Errors**. 
 
-<img src="./website/src/images/finalconfusion2.png">
+<img src="./website/src/images/finalconfusion2.png" width="700" height="210">
 
 <img src="./website/src/images/finalconfusion1.png">
 
