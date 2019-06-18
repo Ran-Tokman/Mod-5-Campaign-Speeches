@@ -43,6 +43,7 @@
     display: flex;
     flex-direction: row;
     font-family: "Georgia";
+    margin-right: -150px;
 }
 
 .speech-percent {
@@ -60,6 +61,6 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 40px;
-    margin-left: -75px;
+    margin-left: -115px;
     font-family: "Georgia";
 }

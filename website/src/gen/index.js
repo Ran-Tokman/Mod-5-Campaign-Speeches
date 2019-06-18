@@ -29,7 +29,7 @@ class Gen extends React.Component {
                 <img src={textGenModel} />
                 
                 <div className='genned-speech'>
-                    The model used speeches from the democratic candidates who won the nomination, <strong>over 600 speeches</strong>. I trained the character sequences on a <strong>Google Cloud GPU</strong>, so the model can try and have an understanding of the language used. It starts off by learning the most common words used, then the most common phrases and mixing them all together to <strong>create new generated sequences</strong>. 
+                    The model used speeches from the Democrat candidates who won the nomination, <strong>over 600 speeches</strong>. I trained the character sequences on a <strong>Google Cloud GPU</strong>, so the model can try and have an understanding of the language used. It starts off by learning the most common words used, then the most common phrases and mixing them all together to <strong>create new generated sequences</strong>. 
                 </div>
                 <div className='modeling-title'>
                     Generating The Text

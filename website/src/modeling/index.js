@@ -152,7 +152,7 @@ class Modeling extends React.Component {
 
 
                 <div className='modeling-title'>
-                    Final Model- Linear SVC()
+                    Final Model- Linear SVC
                 </div>
                 <div className='genned-speech'><strong>LinearSVC</strong> is one of the classifiers which performs quite well on a range of NLP based text classification tasks. The objective of a Linear SVC (Support Vector Classifier) is to fit to the data you provide, returning a "best fit" hyperplane that divides, or categorizes, your data. </div>
                 
