@@ -18,12 +18,13 @@
 }
 
 .genned-speech {
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: "Georgia";
+    margin-bottom: 15px;
 }
 
 .intro-title {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-family: "Georgia";
 }
 

@@ -4,11 +4,14 @@
     margin-left: auto;
     margin-top: 15px;
     font-family: "Georgia";
+    margin-bottom: 10px;
 }
 
 .overview-source {
     margin-top: 10px;
     font-family: "Georgia";
+    margin-bottom: 10px;
+
 }
 
 .overview-charts {

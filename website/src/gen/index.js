@@ -19,13 +19,17 @@ class Gen extends React.Component {
                 <div className='intro-title'>
                     <strong>textgenrnn</strong> is a Python 3 module on top of Keras/TensorFlow for creating RNNs (recurrent neural network).
                 </div>
-                <img src={textGenModel} />
-                <div className='genned-speech'>
-                    For the my model, textgenrnn takes in an input of up to 40 characters, converts each character to a 100-D character embedding vector, and feeds those into a <strong>128-cell long-short-term-memory (LSTM) recurrent layer</strong>. Those outputs are then fed into another 128-cell LSTM. All four layers are then fed into an Attention layer to weight the most important temporal features and average them together (and since the embeddings + 1st LSTM are skip-connected into the attention layer, the model updates can backpropagate to them more easily and prevent vanishing gradients).
-
+                
+                <div className='modeling-title'>
+                    Model Architecture 
                 </div>
                 <div className='genned-speech'>
-                    The model used speeches from the democratic candidates who won the nomination, <strong>over 600 speeches</strong>. It trains on character sequences to try and have an understanding of  the language used. It starts off by learning the most common  words used, then the most common phrases and mixing them all together to <strong>create new generated sequences</strong>. 
+                    For my model, textgenrnn takes in an input of up to 40 characters, and implements <strong>multi-layer Recurrent Neural Network (RNN, LSTM)</strong> for training on my data and sampling from pretrained character-level language models. In other words the model takes the speeches as input and trains a Recurrent Neural Network that learns to predict the next character in a sequence. The RNN can then be used to <strong>generate text character by character</strong> that will look like the original training data.
+                </div>
+                <img src={textGenModel} />
+                
+                <div className='genned-speech'>
+                    The model used speeches from the democratic candidates who won the nomination, <strong>over 600 speeches</strong>. I trained the character sequences on a <strong>Google Cloud GPU</strong>, so the model can try and have an understanding of the language used. It starts off by learning the most common words used, then the most common phrases and mixing them all together to <strong>create new generated sequences</strong>. 
                 </div>
                 <div className='modeling-title'>
                     Generating The Text
@@ -40,13 +44,15 @@ class Gen extends React.Component {
                     Epoch 10
                 </div>
                 <div className='typewriter'>
-                    <h1>“and i ' m not going to let that happen . and i ' ll tell you what i ' m going to need your help . and i ' m not going to let that happen . and i ' m going to need your help . and i ' m not going to let you know , i ' m not going to let that happen . and i ' ll tell you what i ' m going to need your help . i ' m not going to let them tell you what i thought , i ' d always tell you where i stood , and i ' d like to do is go back to the same rates we had when bill clinton was president . and he ' s been in washington . and i ' ll tell you what i ' m going to need your help . i ' m not going to let that happen . and i ' m not going to let you go back to the clinton rates . and that ' s why i ' m running for president . i ' m not going to let that happen . and i ' ll tell you what i ' m going to need your help . and i ' m not going to let that happen . and i ' ll tell you what i ' m going to need your help . i ' m not going to let you go back to the clinton rates . and i ' ll tell you what i ' m going to need your help . and i ' m not going to be easy . and i ' m not going to let them tell you what i”</h1>
+                    <h1>“to do so that we can ' t make this century another american century . and i ' m going to need your help . i ' m not going to let that happen . and i ' m going to need your help . and i ' m not going to let that happen . and we ' ll remind the world why the united states of america . the president . hello , iowa ! thank you ! thank you . thank you so much , everybody . thank you . thank you so much . thank you . thank you so much . thank you so much . thank you so much . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you very much , everybody . thank you . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you so much . wow ! thank you so much , everybody . thank you . thank you so much . thank you . thank you so much . thank you so much , everybody . thank you . thank you so much , everybody . thank you . thank you so much , everybody . thank you . thank you so much . wow ! thank you so much . thank you . thank you so much . thank you so much . thank you very much , everybody . thank you . thank you so much . wow ! thank you so much . wow ! thank you so much . thank you so much , everybody . thank you .”</h1>
                 </div>
                 <div className='gen-sub-title'>
                     Epoch 15
                 </div>
+                
                 <div className='typewriter'>
-                    <h1>“to do so that we can ' t make this century another american century . and i ' m going to need your help . i ' m not going to let that happen . and i ' m going to need your help . and i ' m not going to let that happen . and we ' ll remind the world why the united states of america . the president . hello , iowa ! thank you ! thank you . thank you so much , everybody . thank you . thank you so much . thank you . thank you so much . thank you so much . thank you so much . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you very much , everybody . thank you . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you so much . wow ! thank you so much , everybody . thank you . thank you so much . thank you . thank you so much . thank you so much , everybody . thank you . thank you so much , everybody . thank you . thank you so much , everybody . thank you . thank you so much . wow ! thank you so much . thank you . thank you so much . thank you so much . thank you very much , everybody . thank you . thank you so much . wow ! thank you so much . wow ! thank you so much . thank you so much , everybody . thank you .”</h1>
+                    <h1>“and i ' m not going to let that happen . and i ' ll tell you what i ' m going to need your help . and i ' m not going to let that happen . and i ' m going to need your help . and i ' m not going to let you know , i ' m not going to let that happen . and i ' ll tell you what i ' m going to need your help . i ' m not going to let them tell you what i thought , i ' d always tell you where i stood , and i ' d like to do is go back to the same rates we had when bill clinton was president . and he ' s been in washington . and i ' ll tell you what i ' m going to need your help . i ' m not going to let that happen . and i ' m not going to let you go back to the clinton rates . and that ' s why i ' m running for president . i ' m not going to let that happen . and i ' ll tell you what i ' m going to need your help . and i ' m not going to let that happen . and i ' ll tell you what i ' m going to need your help . i ' m not going to let you go back to the clinton rates . and i ' ll tell you what i ' m going to need your help . and i ' m not going to be easy . and i ' m not going to let them tell you what i”</h1>
+
                 </div>
                 <div className='gen-sub-title'>
                     Epoch 20
