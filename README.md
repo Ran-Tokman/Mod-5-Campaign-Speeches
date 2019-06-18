@@ -48,7 +48,7 @@ Below are a few examples:
 
 **Hillary Clinton**
 
-<img src="./website/src/images/candidates/hillary0.png" width="220" height="279">
+<img src="./website/src/images/candidates/hillary0.png" width="250" height="279">
 
 <img src="./website/src/images/candidates/hillary1.png">
 <img src="./website/src/images/candidates/hillary3.png">
@@ -115,6 +115,8 @@ Examples:
 
 <img src="./website/src/images/biden.jpg" width="220" height="279">
 
+**Speech Text:**
+
 "Philadelphia, thank you, thank you, thank you. Thank you, thank you. Thank you, thank you, thank you. Thank you. Folks, thank you, Jill. I'm Joe Biden, and I'm Jill's husband. You all think I'm kidding. That's how I'm identified. Everyone knows Jill is a Philadelphia girl. She loves this city. I do, too. But to paraphrase the poet, James Joyce, I have to say this, folks, because I'm near my state, when I die, 'Delaware ' will be written on my heart. But I love Philly. Look, I'm mildly prejudice, but I think she made a great, great second lady, and she's going to make one heck of a first lady. Folks, in the past few weeks, I've been all across America -- Pittsburgh, Iowa, South Carolina, Nevada, California, New Hampshire, and today, Philadelphia. This campaign is just getting started. And I promise you this, no one, no one is going to work longer, no one is going to campaign harder to win your hearts, your trust, and your support than the son of Catherine Eugenia Finnegan from Scranton, Pennsylvania, and Joseph R. Biden from Delaware....."
 
 **79% chance of winning the nomination!**
@@ -122,6 +124,8 @@ Examples:
 **Bernie Sanders**
 
 <img src="./website/src/images/bernie.png" width="220" height="279">
+
+**Speech Text:**
 
 "Thanks you all for coming out today. Let me thank the weatherman for giving us Vermont weather. Thank you. And thank you all for being part of a political revolution which is going to transform America. (people chanting: Bernie, Bernie, Bernie, Bernie, Bernie … Bernie: No, no, no, it is not Bernie, is you. It’s us together.) I want to thank all of you for being part of a campaign which is not only going to win the Democratic nomination, which is not only going to defeat Donald Trump, who is the most dangerous president in modern American history, but with your help we are going to transform this country and, finally, create an economy and a government which works for all of us, and not just the one percent. Today, at our very first rally, I want to welcome you to a campaign which says, loudly and clearly, that the underlying principles of our government will not be greed, hatred and lies. It will not be racism, sexism, xenophobia, homophobia and religious bigotry....."
 
