@@ -22,8 +22,17 @@ class Overview extends React.Component {
                 <div>
                 To clean, tokenize and parse the speeches, I used the <strong>spaCy</strong> library. spaCy is a library for advanced Natural Language Processing in Python. It's built on the very latest research, comes with pre-trained statistical models and word vectors, and currently supports tokenization for over 49 languages. It features state-of-the-art speed, convolutional neural network models for tagging, parsing and named entity recognition and easy deep learning integration.
                 </div>
+                <div className='overview-sub-title'>
+                    Total Speeches by Political Party
+            
+                </div>
                 <div className='overview-charts'>
                     <img src={overview1} />
+                </div>
+                    <div className='overview-sub-title'>
+                    Total Candidates Speeches That Either Lost or Won The Nomination by Party
+                </div>
+                <div className='overview-charts'>
                     <img src={overview2} />
                 </div>
 

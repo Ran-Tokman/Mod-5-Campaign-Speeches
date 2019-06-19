@@ -2,6 +2,7 @@ import React from 'react';
 
 import './styles.css';
 import textGenModel from '../images/textgenmodel.png'
+import { Script } from 'vm';
 
 
 class Gen extends React.Component {
@@ -40,6 +41,7 @@ class Gen extends React.Component {
                 <div className='typewriter'>
                     <h1>“hello , iowa ! thank you ! thank you . thank you so much , everybody . thank you . thank you so much . thank you . thank you so much . thank you so much . thank you so much . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you very much , everybody . thank you . thank you so much . thank you . thank you so much . thank you . thank you so much . thank you so much . wow ! thank you so much , everybody . thank you . thank you so much . thank you . thank you so much . thank you so much , everybody . thank you . thank you so much , everybody . thank you . thank you so much , everybody . thank you . thank you so much . wow ! thank you so much . thank you . thank you so much . thank you so much . thank you very much , everybody . thank you . thank you so much . wow ! thank you so much . wow ! thank you so much . thank you so much , everybody . thank you .”</h1>
                 </div>
+                
                 <div className='gen-sub-title'>
                     Epoch 10
                 </div>
