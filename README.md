@@ -8,8 +8,6 @@ Using Natural Language Processing, I analyzed presidential campaign speeches, go
 
 Natural Language Processing, usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable.
 
-A link to my presentation- http://35.231.242.143:3000/
-
 ## Data Gathering
 
 For this project I used data from a total of 1691 speeches that were webscraped from https://www.presidency.ucsb.edu
